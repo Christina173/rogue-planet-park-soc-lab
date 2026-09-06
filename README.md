@@ -6,7 +6,7 @@ The project was designed to demonstrate network security monitoring, intrusion d
 
 ## SOC Dashboard
 
-![Rogue Planet SOC Dashboard](screenshots/rogue-planet-soc-dashboard.png)
+![Rogue Planet SOC Dashboard](screenshots/Rogue%20Planet%20SOC%20Overview%20Dashboard_Kibana.png)
 
 ## Project Highlights
 
@@ -52,8 +52,9 @@ The project was designed to demonstrate network security monitoring, intrusion d
     └──────────────┬───────────────┘
                    │
                    ▼
-          SOC Investigation
+           SOC Investigation
           and Visualization
+```
 
 ## Technology Stack
 
