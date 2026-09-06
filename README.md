@@ -1,2 +1,2 @@
-# rogue-planet-park-soc-lab
-Simulated Security Operations Center for a fictional entertainment company, using Security Onion, Linux, Suricata &amp; Python.
+# rogue-planet-theme-park-soc
+Simulated theme park Security Operations Center using Suricata, Elastic Stack, Filebeat, Ubuntu, and Kali Linux for network monitoring, custom detection engineering, investigation, and visualization.
