@@ -4,6 +4,10 @@ Rogue Planet Theme Park SOC is a hands-on cybersecurity portfolio project that s
 
 The project was designed to demonstrate network security monitoring, intrusion detection, event ingestion, SOC investigation, custom detection engineering, troubleshooting, and security visualization using an isolated virtual lab environment.
 
+## SOC Dashboard
+
+![Rogue Planet SOC Dashboard](screenshots/rogue-planet-soc-dashboard.png)
+
 ## Project Highlights
 
 - Built an end-to-end network security monitoring pipeline
@@ -97,6 +101,10 @@ alert icmp 192.168.56.20 any -> 192.168.56.10 any (msg:"ROGUE PLANET LAB - Kali 
 The Suricata configuration and custom rule were validated before testing.
 
 Controlled ICMP traffic was then generated from Kali Linux at `192.168.56.20` and directed toward the SOC server at `192.168.56.10`.
+
+### Detection Validation
+
+![Rogue Planet ICMP Detection](screenshots/icmp-detection.png)
 
 The test produced four confirmed Suricata alerts in Kibana, demonstrating that the complete detection pipeline was functioning successfully.
 
